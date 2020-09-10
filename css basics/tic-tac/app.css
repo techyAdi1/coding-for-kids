@@ -1,0 +1,24 @@
+h3 {
+    text-align: center;
+}
+
+td {
+    height: 40px;
+    width: 40px;
+}
+
+.right {
+    border-right: black 1px solid;
+}
+
+.bottom {
+    border-bottom: solid 1px black;
+}
+
+table {
+    margin: auto;
+}
+
+td:hover {
+    border: red 1px solid;
+}
