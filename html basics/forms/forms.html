@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>REGISTER</h1>
+    <form>
+        <div>
+            <label for=" firstName"> First Name:</label>
+            <input id="firstName" type="text" placeholder="techyAdi" required>
+            <label for="lastName"> Last Name:</label>
+            <input id="lastName" type="text" placeholder="Coding for kids" required>
+
+        </div>
+        <div>
+            <label for="male">Male:</label>
+            <input name="gender" type="radio" id="male">
+            <label for="female">Female:</label>
+            <input name="gender" type="radio" id="female">
+            <label for="others">Others:</label>
+            <input name="gender" type="radio" id="others">
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input id="email" type="email" placeholder="Your Email" required>
+            <label for="pass">Password:</label>
+            <input id="pass" type="password" placeholder="Your Password" required>
+        </div>
+        <div>
+            <label for="birthday">Birthday:</label>
+            <select name="Day" id="birthday">
+                <option value="0" selected disabled>Day</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+            <select name="MONTH" id="birthday">
+                <option value="month" selected disabled>Month</option>
+                <option value="jan">Jan</option>
+                <option value="feb">Feb</option>
+                <option value="mar">Mar</option>
+            </select>
+            <select name="year" id="birthday">
+                <option value="year" selected disabled>Year</option>
+                <option value="2020">2020</option>
+                <option value="2019">2019</option>
+                <option value="2018">2018</option>
+            </select>
+        </div>
+        <div>
+            <label for="link">I agree to the </label>
+            <a href="https://developer.mozilla.org/en-US/">Teams & Conditons</a>
+            <input type="checkbox">
+        </div>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
